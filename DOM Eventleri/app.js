@@ -1,4 +1,4 @@
-/*
+
 //1 - Event Objesi Kullanma
 
 const filterInput=document.getElementById("filter");
@@ -16,7 +16,7 @@ function submitForm(e){
 //   console.log("Naber");
 // }
 
-/*filterInput.addEventListener("focus",function(e){
+filterInput.addEventListener("focus",function(e){
   console.log(e);
   console.log(e.type);
   console.log(e.target);
@@ -25,9 +25,7 @@ function submitForm(e){
   console.log("Naber");
 })
 
-*/
 
-/*
 //2 - Keyboard Evenetleri
 
 //klavye eventleri
@@ -69,9 +67,9 @@ function run(e){
   console.log("Naber");
 
 }
-*/
 
-/*
+
+
 //3 - Mouse Eventleri
 
 const cardBoddy=document.querySelectorAll(".card-body")[1];
@@ -127,12 +125,12 @@ title.addEventListener("mouseleave",run);
 function run(e){
   console.log(e.type);
 }
-*/
+
 
 
 //4 - Input Eventleri
 
-/*
+
 const filter=document.getElementById("filter");
 
 // document.addEventListener("DOMContentLoaded",load);
@@ -163,7 +161,7 @@ filter.addEventListener("select",run);
 function run(e){
   console.log(e.type);
 }
-*/
+
 
 //5 - Event Capturing & Bubbling
 
